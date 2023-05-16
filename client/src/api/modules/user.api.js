@@ -26,7 +26,7 @@ const userApi = {
         userEndpoints.signup,
         { username, password, confirmPassword, displayName }
       );
-
+console.log(response);
       return { response };
     } catch (err) { return { err }; }
   },
